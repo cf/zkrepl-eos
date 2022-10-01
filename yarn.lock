@@ -121,6 +121,11 @@
   resolved "https://registry.yarnpkg.com/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
   integrity sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==
 
+"@zip.js/zip.js@^2.6.33":
+  version "2.6.33"
+  resolved "https://registry.yarnpkg.com/@zip.js/zip.js/-/zip.js-2.6.33.tgz#c3e520f55793b1b5a8ae5ea7658bd650cb63c1d8"
+  integrity sha512-2zOYLPNgMZafzjQKDW3KcuA6xYhC59oDk1Hw3oOAJfk7RXdQAvVOzJJcYrLNtzn+ijJ8UxOrAdX7H+kY0rnDbA==
+
 acorn@^8.8.0:
   version "8.8.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.0.tgz#88c0187620435c7f6015803f5539dae05a9dbea8"
@@ -211,6 +216,11 @@ bfj@^7.0.2:
     check-types "^11.1.1"
     hoopy "^0.1.4"
     tryer "^1.0.1"
+
+bignumber.js@^9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.1.0.tgz#8d340146107fe3a6cb8d40699643c302e8773b62"
+  integrity sha512-4LwHK4nfDOraBCtst+wOWIHbu1vhvAPJK8g8nROd4iuc3PSEjWif/qwbkh8jwCJz6yDBvtU4KPynETgrfh7y3A==
 
 bl@^4.0.3:
   version "4.1.0"

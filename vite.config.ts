@@ -8,7 +8,7 @@ export default defineConfig({
             readline: "./src/worker/buffer.ts",
             crypto: "./src/worker/crypto.ts",
             constants: "./src/worker/constants.ts",
-            fs: "./src/worker/filesystem.ts",
+            //fs: "./src/worker/filesystem.ts",
         },
     },
     define: {
@@ -20,8 +20,9 @@ export default defineConfig({
     build: {
         assetsDir: "",
         target: ["es2020"],
+        
     },
     optimizeDeps: {
-        esbuildOptions: { target: "es2020", supported: { bigint: true } },
+        esbuildOptions: { target: "es2020" },
     },
 })
